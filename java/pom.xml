@@ -6,6 +6,12 @@
 	<artifactId>java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
+		<!-- 아파치에서 만든 유틸 라이브러리 -->
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-lang3</artifactId>
+		    <version>3.14.0</version>
+		</dependency>
 		<!-- lombok: 패키지, 프로그램 이름, 버전, 사용 범위 -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
